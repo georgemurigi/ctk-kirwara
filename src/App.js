@@ -1,53 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.scss';
-import Nav from './components/Nav/Nav';
-//import {Switch, Route} from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Greetings from './components/Greetings/Greetings';
-import About from './components/About/About';
-import Departments from './components/Departments/Departments';
-import CoCurricular from './components/Co-Curricular/CoCurricular';
-import Loop from './components/Loop/Loop';
-import Gallery from './components/Gallery/Gallery';
-import Contact from './components/Contact/Contact';
+import AlumniPage from './Pages/AlumniPage/AlumniPage';
+import GalleryPage from './Pages/GalleryPage/GalleryPage';
+import JournalPage from './Pages/JournalPage/JournalPage';
+import ContactPage from './Pages/ContactPage/ContactPage'; 
 
 
 function App() {
-  const [navToggle, setNavToggle] = useState(false);
-
-  const navClick = () => {
-    setNavToggle(!navToggle)
-  }
-
   return (
-    <div className="App">
-      <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
-        <Nav />
-      </div>
-      <div className='nav-btn' onClick={navClick}>
-        <div className='lines-1'></div>
-        <div className='lines-2'></div>
-        <div className='lines-3'></div>
-      </div>
-      <div className='main-content'>
-        {/*<div className='content'>
-          <Switch>
-            <Route path="/" exact>
-              <HomePage />
-            </Route>
-          </Switch>
-        </div>*/}
-        <Home />
-        <Greetings />
-        <About />
-        <Departments />
-        <CoCurricular />
-        <Loop />
-        <Gallery />
-        <Contact />
-      </div>
-    </div>
-  );
+    <Router>
+      <NavBar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        {/*<Route path="/school" component={SchoolPage} />*/}
+        {/*<Route path="/departments" component={DepartmentPage} />*/}
+        {/*<Route path="/co-curricular" component={CoCurricularPage} />*/}
+        {/*<Route path="/noticeboard" component={NoticeboardPage} />*/}
+        <Route path="/alumni" component={AlumniPage} />
+        <Route path="/gallery" component={GalleryPage} />
+        <Route path="/journal" component={JournalPage} />
+        <Route path="/contact" component={ContactPage} />
+      </Switch>
+    </Router>
+  )
 }
 
 export default App;
