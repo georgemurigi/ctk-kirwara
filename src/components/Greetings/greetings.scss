@@ -1,0 +1,34 @@
+.greetings-page-container {
+    width: 100%;
+    background-color: #ffe8e8;
+    h1 {
+        text-align: center;
+    }
+    .greetings-container {
+        width: 100%;
+        display: flex;
+        .greetings {
+            width: 50%;
+        }
+        .image {
+            width: 50%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .p-link {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        a {
+            list-style: none;
+            text-decoration: none;
+            border: 1px solid grey;
+            background-color: honeydew;
+            color: indianred;
+            padding: 10px;
+            
+        }
+    }
+}

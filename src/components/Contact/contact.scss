@@ -1,0 +1,26 @@
+.contact-page-container {
+    background-color: black;
+    color: white;
+    height: 700px;
+    .contact-container {
+        .contact-center {
+            text-align: center;
+            .uppercase {
+                text-transform: uppercase;
+            }
+        }
+        .contact-row {
+            display: flex;
+
+            #hhh a{
+                color: white;
+            }
+            a {
+                text-decoration: none;
+            }
+            ul {
+                list-style-type: none;
+            }
+        }
+    }
+}

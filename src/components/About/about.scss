@@ -1,0 +1,27 @@
+.about-page-container {
+    background: #800000 url('./../../images/image20.jpg');
+    color: white;
+    height: 400px;
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        .center {
+            text-align: center;
+        }
+        .about-row {
+            display: flex;
+        }
+        .p-btn {
+            margin-top: 20px;
+            a {
+                list-style: none;
+                text-decoration: none;
+                border: 1px solid grey;
+                background-color: honeydew;
+                color: indianred;
+                padding: 10px;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.department-page-container {
+    background-color: #f7f7f7;
+    width: 100%vw;
+    height: 530px;
+    .department-container {
+        display: flex;
+        flex-direction: column;
+        .text-center {
+            text-align: center;
+        }
+        .department-row {
+            display: flex;
+            .equipment-image {
+                width: 200px;
+                height: 100px;
+                margin-bottom: 50px;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.curricular-page-container {
+    background-color: #ffe8e8;
+    width: 100%vw;
+    height: 700px;
+    .curricular-container {
+        display: flex;
+        flex-direction: column;
+        .text-center {
+            text-align: center;
+        }
+        .curricular-row {
+            display: flex;
+            .equipment-image {
+                width: 350px;
+                height: 100px;
+                margin-bottom: 200px;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
