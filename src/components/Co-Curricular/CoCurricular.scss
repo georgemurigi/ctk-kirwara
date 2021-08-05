@@ -7,17 +7,40 @@
         flex-direction: column;
         .text-center {
             text-align: center;
+            h1 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            p {
+                word-wrap: break-word;
+                padding-bottom: 10px;
+            }
         }
         .curricular-row {
             display: flex;
-            .equipment-image {
-                width: 350px;
-                height: 100px;
-                margin-bottom: 200px;
-                img {
-                    width: 100%;
-                    height: auto;
+            .curricular-section {
+                .equipment-image {
+                    width: 350px;
+                    height: 100px;
+                    margin-bottom: 200px;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
                 }
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px){
+    .curricular-page-container {
+        .curricular-container {
+            .text-center {
+                font-family: "roborto";
+            }
+            .curricular-row {
+                display: flex;
+                flex-direction: column;
             }
         }
     }

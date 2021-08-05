@@ -13,7 +13,7 @@ const CoCurricular = () => {
                     <p>We provide students with co-curricular activities to nurture their talents in line with our mission of bringing up all-rounded students.</p>
                 </div>
                 <div className='curricular-row'>
-                    <div>
+                    <div className='curricular-section'>
                         <div className='equipment-image'>
                             <img src={drums} alt="drums" />
                         </div>
@@ -24,7 +24,7 @@ const CoCurricular = () => {
                         <br /><br />
                         <a href="#learn">Learn More</a>
                     </div>
-                    <div>
+                    <div className='curricular-section'>
                         <div className='equipment-image'>
                             <img src={drama} alt="drama" />
                         </div>
@@ -35,7 +35,7 @@ const CoCurricular = () => {
                         <br /><br />
                         <a href="#learn">Learn More</a>
                     </div>
-                    <div>
+                    <div className='curricular-section'>
                         <div className='equipment-image'>
                             <img src={sports} alt="sports" />
                         </div>

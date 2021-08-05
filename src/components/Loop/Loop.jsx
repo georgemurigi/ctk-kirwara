@@ -14,7 +14,7 @@ const Loop = () => {
                     <p>Be updated about our school affairs today.</p>
                 </div>
                 <div className='loop-row'>
-                    <div>
+                    <div className='loop-section'>
                         <div className='svg'>
                             <img src={event} alt="event" />
                         </div>
@@ -25,7 +25,7 @@ const Loop = () => {
                         <br /><br />
                         <a href="#learn">Noticeboard</a>
                     </div>
-                    <div>
+                    <div className='loop-section'>
                         <div className='svg'>
                             <img src={alumni} alt="alumni" />
                         </div>
@@ -36,7 +36,7 @@ const Loop = () => {
                         <br /><br />
                         <a href="#learn">Join Program</a>
                     </div>
-                    <div>
+                    <div className='loop-section'>
                         <div className='svg'>
                             <img src={tender} alt="tender" />
                         </div>
@@ -47,7 +47,7 @@ const Loop = () => {
                         <br /><br />
                         <a href="#learn">Explore Tenders</a>
                     </div>
-                    <div>
+                    <div className='loop-section'>
                         <div className='svg'>
                             <img src={journal} alt="Journal" />
                         </div>
