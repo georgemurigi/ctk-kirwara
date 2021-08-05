@@ -14,7 +14,7 @@ const Departments = () => {
                     <p>Our academic and extra-curricular activities are conducted through specialized departments that not only enhance learning but also teamwork and quality outcomes.</p>
                 </div>
                 <div className='department-row'>
-                    <div>
+                    <div className="section-row">
                         <div className='equipment-image'>
                             <img src={microscope} alt="microscope" />
                         </div>
@@ -25,7 +25,7 @@ const Departments = () => {
                         <br /><br />
                         <a href="#learn">Learn More</a>
                     </div>
-                    <div>
+                    <div className="section-row">
                         <div className='equipment-image'>
                             <img src={books} alt="books" />
                         </div>
@@ -36,7 +36,7 @@ const Departments = () => {
                         <br /><br />
                         <a href="#learn">Learn More</a>
                     </div>
-                    <div>
+                    <div className="section-row">
                         <div className='equipment-image'>
                             <img src={academy} alt="academy" />
                         </div>
@@ -47,7 +47,7 @@ const Departments = () => {
                         <br /><br />
                         <a href="#learn">Learn More</a>
                     </div>
-                    <div>
+                    <div className="section-row">
                         <div className='equipment-image'>
                             <img src={computer} alt="computer" />
                         </div>
