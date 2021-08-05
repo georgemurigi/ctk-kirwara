@@ -2,24 +2,71 @@
     background-color: black;
     color: white;
     height: 700px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
     .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: stretch;
         .contact-center {
             text-align: center;
+            margin-top: 50px;
+            h4 {
+                font-weight: bold;
+            }
+            h1 {
+                font-style: italic;
+            }
+            button {
+                background-color: white;
+                border-radius: 50px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                margin-bottom: 20px;
+                a {
+                    font-size: 20px;
+                    color: black;
+                }
+            }
             .uppercase {
                 text-transform: uppercase;
             }
         }
         .contact-row {
             display: flex;
-
-            #hhh a{
-                color: white;
+            justify-content: space-around;
+            margin-top: 50px;
+            .contact-section {
+                .one {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                ul {
+                    li {
+                        list-style-type: none;
+                    }
+                }
             }
-            a {
-                text-decoration: none;
-            }
-            ul {
-                list-style-type: none;
+        }
+        .footer {
+            margin-top: 100px;
+            margin-bottom: 0;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .contact-page-container {
+        .contact-container {
+            .contact-row {
+                display: flex;
+                flex-direction: column;
             }
         }
     }

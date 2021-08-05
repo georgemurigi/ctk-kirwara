@@ -8,29 +8,33 @@ const Contact = () => {
                <div className="contact-center">
                    <h4 className='uppercase'>contact</h4>
                    <h1>Have A Concern? Talk To Us</h1>
-                   <p className='p-link'><a href="link">Talk to us today</a></p>
+                   <button><a href="link">Talk to us today</a></button>
                </div>
                <div className='contact-row'>
-                   <div className='col-xs-4 one'>
+                   <div className='contact-section'>
                        <h4 id="hhh"><a href="ctc">Kirwara High School</a></h4>
-                       <ul>
-                           <li><a href="#departments">Departments</a></li>
-                           <li><a href="#co-curricular">Co-curricular Activities</a></li>
-                           <li><a href="#leadership">Leadership</a></li>
-                           <li><a href="#journal">School Journal</a></li>
-                           <li><a href="#gallery">School Gallery</a></li>
-                       </ul>
+                       <div className="one">
+                            <div>
+                                    <ul>
+                                        <li><a href="#departments">Departments</a></li>
+                                        <li><a href="#co-curricular">Co-curricular Activities</a></li>
+                                        <li><a href="#leadership">Leadership</a></li>
+                                        <li><a href="#journal">School Journal</a></li>
+                                        <li><a href="#gallery">School Gallery</a></li>
+                                    </ul>
+                            </div>
+                            <div>
+                                    <ul>
+                                        <li><a href="#responsibility">Social Responsibility</a></li>
+                                        <li><a href="#history">School History</a></li>
+                                        <li><a href="#contact">Contact us</a></li>
+                                        <li><a href="#terms">Terms of Use</a></li>
+                                        <li><a href="#policy">Privacy Policy</a></li>
+                                    </ul>
+                            </div>
+                       </div>
                    </div>
-                   <div className='col-xs-4 two'>
-                       <ul>
-                           <li><a href="#responsibility">Social Responsibility</a></li>
-                           <li><a href="#history">School History</a></li>
-                           <li><a href="#contact">Contact us</a></li>
-                           <li><a href="#terms">Terms of Use</a></li>
-                           <li><a href="#policy">Privacy Policy</a></li>
-                       </ul>
-                   </div>
-                   <div className='col-xs-4 three'>
+                   <div className='contact-section'>
                        <h4>Important Links</h4>
                        <ul>
                            <li><a href="https://education.go.ke">Ministy of Education</a></li>
