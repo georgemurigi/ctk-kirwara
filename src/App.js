@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.scss';
 import Nav from './components/Nav/Nav';
-import {Switch, Route} from 'react-router-dom';
-import HomePage from './Pages/HomePage/HomePage';
+//import {Switch, Route} from 'react-router-dom';
+import Home from './components/Home/Home';
 import Greetings from './components/Greetings/Greetings';
 import About from './components/About/About';
 import Departments from './components/Departments/Departments';
@@ -30,13 +30,14 @@ function App() {
         <div className='lines-3'></div>
       </div>
       <div className='main-content'>
-        <div className='content'>
+        {/*<div className='content'>
           <Switch>
             <Route path="/" exact>
               <HomePage />
             </Route>
           </Switch>
-        </div>
+        </div>*/}
+        <Home />
         <Greetings />
         <About />
         <Departments />
