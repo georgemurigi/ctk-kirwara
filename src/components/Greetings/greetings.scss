@@ -1,17 +1,31 @@
 .greetings-page-container {
     width: 100%;
     background-color: #ffe8e8;
+    padding: 30px 50px 20px 50px;
     h1 {
         text-align: center;
+        margin: 30px;
     }
     .greetings-container {
         width: 100%;
         display: flex;
+        margin: 0 20px 20px 20px;
         .greetings {
             width: 50%;
+            margin-right: 20px;
+            padding: 10px 40px 20px 30px;
+            p{
+                font-weight: bold;
+            }
+            .name {
+                display: flex;
+                justify-content: flex-end;
+            }
         }
         .image {
             width: 50%;
+            margin-left: 20px;
+            padding: 10px 40px 20px 30px;
             img{
                 width: 100%;
                 height: auto;
@@ -19,16 +33,41 @@
         }
     }
     .p-link {
-        padding-top: 10px;
-        padding-bottom: 30px;
+        margin-bottom: 20px;
         a {
             list-style: none;
             text-decoration: none;
-            border: 1px solid grey;
-            background-color: honeydew;
-            color: indianred;
+            background-color: crimson;
+            color: white;
             padding: 10px;
+            margin: 0 20px 20px 20px;
             
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .greetings-page-container {
+        width: 100%;
+        height: auto;
+        .greetings-container {
+            width: 100%vw;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            .greetings {
+                width: 100%;
+                height: auto;
+                .name {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+            }
+            .image {
+                width: 100%;
+                height: auto;
+            }
         }
     }
 }
