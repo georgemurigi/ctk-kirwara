@@ -1,14 +1,18 @@
 import React from 'react'
 import './JournalPage.scss';
 import Contact from './../../components/Contact/Contact';
+import CoCurricular from './../../components/Co-Curricular/CoCurricular';
 
 const JournalPage = () => {
     return (
         <>
-            <div className='Container'>
-                <div className="One"></div>
-                <div className="Two"></div>
+            <div className='JournalContainer'>
+                <div className="One">
+                    <h1>Our Journal</h1>
+                    <p>Ideas and thoughts shared by our students and teachers.</p>
+                </div>
             </div>
+            <CoCurricular />
             <Contact />   
         </>
     )

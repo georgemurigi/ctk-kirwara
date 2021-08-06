@@ -1,14 +1,14 @@
-.Container {
-    display: flex;
-    flex-direction: column;
+.JournalContainer {
     .One {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         width: 100%;
         height: 300px;
         background-color: crimson;
-    }
-    .Two {
-        width: 100%;
-        height: 500px;
-        background-color: cyan;
+        color: white;
+        h1 {
+            padding-bottom: 30px;
+        }
     }
 }

@@ -13,7 +13,7 @@ const AlumniPage = () => {
                     <a href="join">Join the program</a>
                 </div>
                 <div className="two">
-                    <div className="two-cointainer">
+                    <div className="two-container">
                         <h2>Why Join Our Alumni Program</h2>
                         <p>Joining the Kirwara Boys Alumni Programs will help you in a number of ways including.</p>
                         <ol>
