@@ -1,31 +1,56 @@
 .curricular-page-container {
-    background-color: #ffe8e8;
+    background-color: cyan;
     width: 100%vw;
-    height: 700px;
+    height: 100%vh;
     .curricular-container {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        height: 100%;
         .text-center {
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0px;
+            padding: 0 0 20px 0;
             h1 {
                 margin-top: 20px;
                 margin-bottom: 20px;
             }
             p {
+                text-align: center;
                 word-wrap: break-word;
                 padding-bottom: 10px;
             }
         }
         .curricular-row {
             display: flex;
+            height: 70%;
+            padding-right: 10px;
+            padding-left: 10px;
             .curricular-section {
+                margin: 10px;
                 .equipment-image {
-                    width: 350px;
-                    height: 100px;
-                    margin-bottom: 200px;
+                    width: 100%;
+                    height: 100;
+                    margin: 0px;
+                    padding: 10px; 
                     img {
+                        padding: auto;
                         width: 100%;
                         height: auto;
+                    }
+                }
+                .text-section {
+                    padding: 10px;
+                    p {
+                        margin-bottom: 30px;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: crimson;
+                        margin-bottom: 20px;
                     }
                 }
             }

@@ -1,72 +1,76 @@
-.greetings-page-container {
+.container {
     width: 100%;
     background-color: #ffe8e8;
-    padding: 30px 50px 20px 50px;
-    h1 {
-        text-align: center;
+    .page-container {
         margin: 30px;
-    }
-    .greetings-container {
-        width: 100%;
-        display: flex;
-        margin: 0 20px 20px 20px;
-        .greetings {
-            width: 50%;
-            margin-right: 20px;
-            padding: 10px 40px 20px 30px;
-            p{
-                font-weight: bold;
-            }
-            .name {
-                display: flex;
-                justify-content: flex-end;
-            }
+        padding-bottom: 20px;
+        h1 {
+            text-align: center;
+            margin: 30px;
+            font-family: inherit;
         }
-        .image {
-            width: 50%;
-            margin-left: 20px;
-            padding: 10px 40px 20px 30px;
-            img{
-                width: 100%;
-                height: auto;
-            }
-        }
-    }
-    .p-link {
-        margin-bottom: 20px;
-        a {
-            list-style: none;
-            text-decoration: none;
-            background-color: crimson;
-            color: white;
-            padding: 10px;
+        .greetings-container {
+            width: 100%;
+            display: flex;
             margin: 0 20px 20px 20px;
-            
+            .greetings {
+                width: 50%;
+                margin-right: 20px;
+                padding: 10px 40px 20px 30px;
+                p{
+                    font-family: inherit;
+                }
+                .name {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            .image {
+                width: 50%;
+                margin-left: 20px;
+                padding: 10px 40px 20px 30px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+            background-color: purple;
+            color: white;
+            padding: 10px 30px 10px 30px;
+            margin-left: 30px;
+            margin-bottom: 10px;    
         }
     }
 }
 
 @media screen and (max-width: 700px) {
-    .greetings-page-container {
+    .container {
         width: 100%;
         height: auto;
-        .greetings-container {
-            width: 100%vw;
-            height: auto;
-            display: flex;
-            flex-direction: column-reverse;
-            flex-wrap: wrap;
-            .greetings {
+        .page-container {
+            .greetings-container {
                 width: 100%;
                 height: auto;
-                .name {
-                    display: flex;
-                    justify-content: flex-start;
+                display: flex;
+                flex-direction: column-reverse;
+                flex-wrap: wrap;
+                .greetings {
+                    width: 100%;
+                    height: auto;
+                    padding-left: 0px;
+                    .name {
+                        display: flex;
+                        justify-content: flex-start;
+                    }
                 }
-            }
-            .image {
-                width: 100%;
-                height: auto;
+                .image {
+                    width: 100%;
+                    height: auto;
+                    margin: 0px;
+                }
             }
         }
     }

@@ -13,7 +13,7 @@ import Contact from '../Contact/Contact';
 const Home = () => {
     return (
         <div>
-            <div className='HomePage' id='home'>
+            <div className='Home'>
                 <Front />
             </div>
             <Greetings />

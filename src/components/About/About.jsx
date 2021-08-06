@@ -3,11 +3,11 @@ import './about.scss';
 
 const About = () => {
     return (
-        <div className='about-page-container'>
-            <div className="about-container">
+        <div className='AboutContainer'>
+            <div className="about-page-container">
                 <div className='center'>
-                    <h3>About</h3>
-                    <h1>Christ The King <br /> Kirwara Boys</h1>
+                    <h5>About</h5>
+                    <h2>Christ The King <br /> Kirwara Boys</h2>
                 </div>
                 <div className='about-row'>
                     <div>
@@ -23,7 +23,7 @@ const About = () => {
                         <p>Our Mision is to produce a self-reliant man through holistic education, professionalism and effective management of the available resources.</p>
                     </div>
                 </div>
-                <a className='p-btn' href='btn'><p >Learn more about us</p></a>
+                <a href='btn'>Learn more about us</a>
             </div>
         </div>
     )
