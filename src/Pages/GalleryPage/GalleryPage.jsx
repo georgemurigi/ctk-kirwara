@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from './../../components/Contact/Contact';
-import './GalleryPage.scss'
+import './GalleryPage.scss';
+import Images from './Images'
 
 const GalleryPage = () => {
     return (
@@ -10,8 +11,8 @@ const GalleryPage = () => {
                     <h2>From Our Events And Activities</h2>
                     <h1>School Gallery</h1>
                 </div>
-                <div className="Two"></div>
             </div>
+            <Images />
             <Contact />   
         </>
     )
