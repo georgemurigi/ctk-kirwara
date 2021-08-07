@@ -1,5 +1,6 @@
 import React from 'react';
 import './gallery.scss';
+import Slider from './Slider';
 
 const Gallery = () => {
     return (
@@ -9,9 +10,7 @@ const Gallery = () => {
                     <h5>Gallery</h5>
                     <h2>Our Recent Events</h2>
                 </div>
-                <div className="picture-container">
-                    <h1>Pictures will be displayed here</h1>
-                </div>
+                <Slider />
                 <a href="gallery">School Gallery</a>
             </div>
         </div>
