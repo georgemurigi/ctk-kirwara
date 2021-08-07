@@ -63,6 +63,7 @@ const NavBar = () => {
                                         <Link to='/school' exact activeClassName='is-active' onClick={toggleClass} >
                                             Our School <FiChevronDown />
                                         </Link>
+                                        {/*
                                         <ul className={boxClassSubMenu.join(' ')}>
                                             <li>
                                                 <Link to='' onClick={toggleClass} activeClassName='is-active'>
@@ -80,11 +81,13 @@ const NavBar = () => {
                                                 </Link>
                                             </li>
                                         </ul>
+                                        */}
                                     </li>
                                     <li className="menu-item">
                                         <Link to='/departments' exact activeClassName='is-active' onClick={toggleClass} >
                                             Departments <FiChevronDown />
                                         </Link>
+                                        {/*
                                         <ul className={boxClassSubMenu.join(' ')}>
                                             <li>
                                                 <Link to='' onClick={toggleClass} activeClassName='is-active'>
@@ -107,11 +110,13 @@ const NavBar = () => {
                                                 </Link>
                                             </li>
                                         </ul>
+                                        */}
                                     </li>
                                     <li className="menu-item">
                                         <Link to='/co-curricular' exact activeClassName='is-active' onClick={toggleClass} >
                                             Co-curricular <FiChevronDown />
                                         </Link>
+                                        {/*
                                         <ul className={boxClassSubMenu.join(' ')}>
                                             <li>
                                                 <Link to='' onClick={toggleClass} activeClassName='is-active'>
@@ -129,11 +134,13 @@ const NavBar = () => {
                                                 </Link>
                                             </li>
                                         </ul>
+                                        */}
                                     </li>
                                     <li className="menu-item">
                                         <Link to='/noticeboard' exact activeClassName='is-active' onClick={toggleClass} >
                                             Noticeboard <FiChevronDown />
                                         </Link>
+                                        {/*
                                         <ul className={boxClassSubMenu.join(' ')}>
                                             <li>
                                                 <Link to='' onClick={toggleClass} activeClassName='is-active'>
@@ -146,6 +153,7 @@ const NavBar = () => {
                                                 </Link>
                                             </li>
                                         </ul>
+                                        */}
                                     </li>
                                     <li className="menu-item">
                                         <Link to='/alumni' exact activeClassName='is-active' onClick={toggleClass} >
