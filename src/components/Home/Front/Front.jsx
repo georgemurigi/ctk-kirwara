@@ -6,7 +6,7 @@ const Front = () => {
     return (
         <div className='Front'>
             <h1 className="hero-text">
-                Welcome to CTK <br />Kirwara Boys
+                Welcome to <span className='bolder-text'>CTK <br />Kirwara Boys</span>
             </h1>
             <hr />
             <p className='h-sub-text'>

@@ -4,9 +4,16 @@
     margin: 30px;
     padding: 20px 0 50px 10px;
     h1 {
-        font-size: 3em;
-        font-weight: bold;
-        padding-bottom: 30px;
+        font-family: Arial, sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 96px;
+        text-decoration: none solid rgb(255, 255, 255);
+        text-align: left;
+        word-spacing: opx;
+        span {
+            font-weight: 700;
+        }
     }
     hr {
         width: 30%;
@@ -17,14 +24,24 @@
     }
     p {
         width: 70%;
-        font-size: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 27.8571px;
         padding: 20px 0 20px 0;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif; 
     }
     a {
         text-decoration: none;
-        color: crimson;
+        color: #962727;
+        width: 218.719px;
+        height: 62px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
         background-color: white;
-        padding: 20px;
+        padding: 14px 30px 14px 30px;
+        border: 1px solid #000f23
     }
 }

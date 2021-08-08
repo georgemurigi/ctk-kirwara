@@ -48,7 +48,7 @@ const Contact = () => {
                    </div>
                </div>
                <div className='footer'>
-                    <a href="ctk.convenience.co.ke">&copy Kirwara High School 2021</a>
+                    <a href="ctk.convenience.co.ke">&copy; Kirwara High School 2021</a>
                     <h2>Conveniently Crafted By <a href='https://convenience.co.ke/education-solutions'>Convenience Designs</a></h2>
                </div>
             </div> 

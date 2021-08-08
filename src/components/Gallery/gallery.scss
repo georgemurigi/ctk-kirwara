@@ -1,5 +1,5 @@
 .GalleryContainer {
-    background-color: #a5728e;
+    background-color: #ffffff;
     width: 100%vw;
     height: auto;
     .gallery-page-container {
@@ -15,12 +15,19 @@
             text-align: center;
             margin: 10px 30px 0 30px;
             h5 {
-                font-size: 15px;
+                font-size: 18px;
                 padding-top: 10px;
                 margin-bottom: 20px;
+                text-align: center;
+                font-family: inherit;
+                line-height: 28px;
             }
             h2 {
-                font-weight: bold;
+                font-weight: 700;
+                font-family: inherit;
+                font-size: 30px;
+                line-height: 39px;
+                text-align: center;
                 margin-bottom: 10px;
             }
         }
@@ -32,12 +39,17 @@
             border: 1px solid green;
         }
         a {
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 16px;
+            text-align: center;
             align-self: center;
             margin: 10px;
             text-decoration: none;
-            background-color: indianred;
+            background-color: #962727;
             color: white;
-            padding: 10px 15px 10px 15px;
+            padding: 14px 30px 14px 30px;
         }
     }
 }
