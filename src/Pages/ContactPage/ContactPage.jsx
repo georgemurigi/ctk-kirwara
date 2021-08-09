@@ -73,7 +73,7 @@ const ContactPage = () => {
                                 <label>
                                     <textarea name="" id="" cols="30" rows="10">Give us more details</textarea>
                                 </label>
-                                <button type="submit">Submit</button>
+                                <button type="submit">Send</button>
                             </form>
                         </div>
                     </div>
